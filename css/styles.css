@@ -19,6 +19,10 @@ body {
     height: 100vh;
 }
 
+.card{
+    border-radius: 0;
+}
+
 .ppad{
     padding: 10px;
 }
@@ -77,17 +81,39 @@ body {
     color: #FFFFFF;
 }
 
+.hTxt0 {
+    font-family: Dosis;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+}
+
 .hTxt {
     font-family: Dosis;
     color: #FFFFFF;
     text-align: center;
+    
+}
 
+.hTxt1 {
+    font-family: Dosis;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
 }
 
 .hTxt2 {
     font-family: Dosis;
     color: #1A1B26;
 }
+
+.hTxt3 {
+    font-family: Dosis;
+    color: #1A1B26;
+    font-size: 25px;
+}
+
+
 
 .hTxtsmall {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -154,6 +180,7 @@ body {
     font-family: Dosis;
     color: #1A1B26;
     text-align: center;
+    font-size: 35px;
 }
 
 .heroTxt4 {
