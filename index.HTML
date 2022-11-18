@@ -339,7 +339,7 @@
         <br>
 
         <div class="d-none d-xl-block">
-            <div id="amenities" class="row heroimg3 heroTxt">
+            <div id="amenities" class="row heroimg3 heroTxtt">
                 <div class="hTxt">
                     <h1>Amenities</h1>
                     <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most
@@ -349,21 +349,23 @@
                     <br>
                     <br>
                     <div class="d-flex justify-content-center">
-                        <div class="col-sm-3"><img src="./assets/24hour.png" alt="24 hour"><span class="caption"></span></div>
-                        <div class="col-sm-3"><img src="./assets/breakfast.png" alt="breakfast"><span
+                        <div class="col-3"></div>
+                        <div class="col-sm-2"><img src="./assets/24hour.png" alt="24 hour"><span class="caption"></span></div>
+                        <div class="col-sm-2"><img src="./assets/breakfast.png" alt="breakfast"><span
                                 class="caption"></span></div>
-                        <div class="col-sm-3"><img src="./assets/valet.png" alt="valet"><span class="caption"></span></div>
-                        <div class="col-sm-3"><img src="./assets/pool.png" alt="pool"><span class="caption">
+                        <div class="col-sm-2"><img src="./assets/valet.png" height="100" alt="valet"><span class="caption"></span></div>
+                        <div class="col-sm-2"><img src="./assets/pool.png" alt="pool"><span class="caption">
                                 </span></div>
+                                <div class="col-3"></div>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <div class="col-3 fontSansBoldBig">24-hour
+                    <div class="col-2 fontSansBoldBig">24-hour
                         Room Service</div>
-                    <div class="col-3 fontSansBoldBig">Complimentary Breakfast</div>
-                    <div class="col-3 fontSansBoldBig">Valet
+                    <div class="col-2 fontSansBoldBig">Complimentary Breakfast</div>
+                    <div class="col-2 fontSansBoldBig">Valet
                         Parking</div>
-                    <div class="col-3 fontSansBoldBig">Breachside Pool</div>
+                    <div class="col-2 fontSansBoldBig">Breachside Pool</div>
                 </div>
 
             </div>
@@ -375,12 +377,11 @@
                 <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most
                     relaxing
                     stay we can provide.</p>
-                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/24hour.png" alt="24 hour">Twenty Four hour
-                    Room Service</div>
-                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/breakfast.png" alt="breakfast">Complimentary Breakfast</div>
-                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/valet.png" alt="valet">Valet
-                    Parking</div>
-                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/pool.png" alt="pool">Breachside Pool</div>
+                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/24hour.png" height="125" width="140" alt="24 hour">TWENTY FOUR HOUR ROOM-SERVICE</div>
+                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/breakfast.png" height="125" width="140" alt="breakfast">COMPLIMENTARY BREAKFAST</div>
+                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/valet.png" height="125" width="140" alt="valet">VALET
+                    PARKING</div>
+                <div class="col-sm-3 fontSansBoldBig"><img src="./assets/pool.png" height="125" width="140" alt="pool">BEACHSIDE POOL</div>
             </div>
 
             
@@ -389,7 +390,7 @@
         <br>
         <br>
 
-        <div id="reserve" class="bg-img container2 ">
+        <div id="reserve" class="bg-img container2 d-xxl-none d-xxl-block">
             <div class="Txtbg2">
                 <div class="row fontSansRegC ">
                     <h1 class="hTxt1">Reserve a Room</h1>
@@ -397,22 +398,55 @@
                 <div class="row d-flex justify-content-center ">
                     <div class="col-sm-2 fontSansRegCa">
                         <label for="Check-in">Check-in</label>
-                        <input type="check" class="form-control" aria-describedby="emailHelp" placeholder="Enter Date">
+                        <input type="check" class="form-control" aria-describedby="emailHelp" placeholder="">
                     </div>
                     <div class="col-sm-2 fontSansRegCa">
                         <label for="Check-in">Check-out</label>
                         <input type="check-out" class="form-control" aria-describedby="emailHelp"
-                            placeholder="Enter Date">
+                            placeholder="">
                     </div>
                     <div class="col-sm-2 fontSansRegCa">
-                        <label for="Check-in">Number of Guests</label>
+                        <label for="Check-in"># of Guests</label>
                         <input type="num-of-guests" class="form-control" aria-describedby="emailHelp"
-                            placeholder="Number of Guests">
+                            placeholder="">
                     </div>
                     <div class="col-sm-2 fontSansRegCa">
                         <label for="Check-in ">Room Type</label>
                         <input type="Room-Type" class="form-control" aria-describedby="emailHelp"
-                            placeholder="Room Type">
+                            placeholder="">
+                    </div>
+                    <div class="col-sm-4 fontSansRegCa">
+                        <br>
+                        <button type="button" class="btn btn-primary">Check Availabilty</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="reserve" class="bg-img container2 d-none d-xl-block">
+            <div class="Txtbg2">
+                <div class="row fontSansRegC ">
+                    <h1 class="hTxt1">Reserve a Room</h1>
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-sm-2 fontSansRegCa">
+                        <label for="Check-in">Check-in</label>
+                        <input type="check" class="form-control" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                    <div class="col-sm-2 fontSansRegCa">
+                        <label for="Check-in">Check-out</label>
+                        <input type="check-out" class="form-control" aria-describedby="emailHelp"
+                            placeholder="">
+                    </div>
+                    <div class="col-sm-2 fontSansRegCa">
+                        <label for="Check-in">Number of Guests</label>
+                        <input type="num-of-guests" class="form-control" aria-describedby="emailHelp"
+                            placeholder="">
+                    </div>
+                    <div class="col-sm-2 fontSansRegCa">
+                        <label for="Check-in ">Room Type</label>
+                        <input type="Room-Type" class="form-control" aria-describedby="emailHelp"
+                            placeholder="">
                     </div>
                     <div class="col-sm-2 fontSansRegCa">
                         <br>
@@ -421,8 +455,12 @@
                 </div>
             </div>
         </div>
+
+
         <br>
         <br>
+
+
         <div class="row bGColor">
             <footer id="contact" class=" fontSansRegC heroTxt2">
                 <img src="./assets/Logo.png" alt="Logo" width="150" height="100" class="d-inline-block align-text-top">

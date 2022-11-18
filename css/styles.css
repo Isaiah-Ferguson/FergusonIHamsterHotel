@@ -169,6 +169,13 @@ body {
     text-align: center;
 }
 
+.heroTxtt {
+    padding-top: 60px;
+    padding-bottom: 160px;
+    color: #E5FEFF;
+    text-align: center;
+}
+
 .heroTxt2 {
     font-family: Dosis;
     color: #E5FEFF;
@@ -249,7 +256,6 @@ body {
 .heroimg3 {
     background-image: url(../assets/bg.jpg);
     background-position: center;
-    background-position: inherit;
     background-repeat: repeat;
     background-size: 100%;
     height: auto;
@@ -414,7 +420,6 @@ div.item {
     color: #fff;
     background-color: #000324;
     border-color: #000324;
-    /*set the color you want here*/
 }
 
 .btn-primary:hover,
@@ -425,8 +430,6 @@ div.item {
     color: #fff;
     background-color: #000324;
     border-color: #fff;
-    /*set the color you want here*/
-    border: 2px solid white;
-    padding: 2px 4px;
+    outline: 2px solid white;
     display: inline-block;
 }
