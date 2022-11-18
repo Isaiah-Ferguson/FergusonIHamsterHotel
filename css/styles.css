@@ -61,39 +61,66 @@ body {
 
 .fontSansBoldBig {
     font-family: SansBold;
-    font-size: large;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .fontSansReg {
     font-family: SansRegular;
     font-size: 16px;
+    color: #1A1B26;
 }
 
 .fontSansRegC {
     font-family: SansRegular;
-    font-size: small;
+    font-size: 16px;
     text-align: center;
     color: #FFFFFF;
 }
 
 .fontSansRegCa {
     font-family: SansRegular;
-    font-size: small;
-    color: #FFFFFF;
+    font-size: 16px;
+    color: #E5FEFF;
 }
 
 .hTxt0 {
     font-family: Dosis;
-    color: #FFFFFF;
+    color: #E5FEFF;
     text-align: center;
     font-size: 45px;
 }
 
+.hTxta {
+    font-family: Dosis;
+    color: #FFFFFF;
+    text-align: end;
+    font-size: 20px;
+}
+
+.hTxtb {
+    font-family: Dosis;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 20px;
+}
+
 .hTxt {
+    font-family: Dosis;
+    color: #E5FEFF;
+    text-align: center;
+}
+
+.hTxtO {
     font-family: Dosis;
     color: #FFFFFF;
     text-align: center;
-    
+}
+.hTxtO0 {
+    font-family: Dosis;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
 }
 
 .hTxt1 {
@@ -111,7 +138,7 @@ body {
 .hTxt3 {
     font-family: Dosis;
     color: #1A1B26;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .hTxtsmall {
@@ -177,7 +204,8 @@ body {
 
 .heroTxt2 {
     font-family: Dosis;
-    color: #E5FEFF;
+    color: #FFFFFF;
+    font-size: 35px;
     text-align: center;
     padding: 50px;
 }
@@ -192,6 +220,7 @@ body {
 .heroTxt4 {
     font-family: Dosis;
     color: #1A1B26;
+    font-size: 25px;
 }
 
 .heroTxt5 {
@@ -203,6 +232,12 @@ body {
     font-family: Dosis;
     color: #E5FEFF;
     margin: 50px;
+}
+
+.heroTxt7 {
+    font-family: Dosis;
+    color: #1A1B26;
+    font-size: 25px;
 }
 
 /*IMAGES*/
@@ -222,6 +257,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    height: auto;
 }
 
 .heroimg2 {
