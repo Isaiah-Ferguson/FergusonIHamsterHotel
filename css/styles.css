@@ -21,7 +21,7 @@ body {
 }
 
 .card{
-    border-radius: 0;
+    border-radius: 0%;
 }
 
 .ppad{
@@ -141,6 +141,13 @@ body {
     font-size: 35px;
 }
 
+.hTxt4 {
+    font-family: Dosis;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
 .hTxtsmall {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -258,6 +265,7 @@ body {
     align-items: center;
     max-width: 100%;
     height: auto;
+    
 }
 
 .heroimg2 {
@@ -453,10 +461,49 @@ div.item {
     color: #fff;
     background-color: #000324;
     border-color: #fff;
-    outline: 2px solid white;
+    outline: 3px solid white;
+    padding: 3px;
     display: inline-block;
 }
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;..");
   }
+
+.test{
+    background-image: url(../assets/hamsterspring.jpg);
+    height: 234px;
+    width: 561px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.test1{
+    background-image: url(../assets/hamstercheese.jpg);
+    height: 234px;
+    width: 561px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.test2{
+    background-image: url(../assets/hamsterwedding.jpg);
+    height: 234px;
+    width: 561px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.CstmButton {
+    background-color: #004CC7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 150px;
+    height: 50px;
+}
