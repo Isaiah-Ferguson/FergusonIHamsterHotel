@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    
 }
 
 .card{
@@ -112,8 +113,6 @@ body {
     color: #1A1B26;
     font-size: 25px;
 }
-
-
 
 .hTxtsmall {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,16 +215,13 @@ body {
 
 .heroimg {
     background-image: url(../assets/header.jpg);
-    background-position: center;
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    min-height: auto;
 }
 
 .heroimg2 {
@@ -262,7 +258,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     min-height: auto;
 }
 
@@ -294,7 +289,6 @@ div.item {
     background-repeat: repeat;
     background-size: 100%;
     height: auto;
-
 }
 
 .heroimg6 {
@@ -303,7 +297,6 @@ div.item {
     background-repeat: repeat;
     background-size: 100%;
     height: auto;
-
 }
 
 .hamImg {
@@ -380,29 +373,23 @@ div.item {
     background-image: url(../assets/hamsterreserve.jpg);
     height: 90%;
     width: 70%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
-
-    /* Needed to position the navbar */
-
 }
 
-/* Position the navbar container inside the image */
 .container3 {
     width: 100%;
 }
 
-/* The navbar */
 .topnav {
     overflow: hidden;
     background-color: #00032433;
 }
 
-/* Navbar links */
+
 .topnav a {
     float: center;
     color: #E5FEFF;
@@ -433,3 +420,7 @@ div.item {
     outline: 2px solid white;
     display: inline-block;
 }
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
